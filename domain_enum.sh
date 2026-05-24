@@ -7,7 +7,7 @@ if [ -z "$TARGET" ]; then
     exit 1
 fi
 
-DS_WEBHOOK="https://discord.com/api/webhooks/1506680524809306144/P0bd1WzAPL45I-vlhjVlMNWMsK5iDtMMMX5eriualFXHVb8wSv5dA2rbsBfQi27bbeis"
+DS_WEBHOOK="XX"
 
 DATE=$(date +%Y-%m-%d)
 TARGET_NAME=$(echo "$TARGET" | sed -E 's/^(https?:\/\/)?(www\.)?//' | cut -d/ -f1)
